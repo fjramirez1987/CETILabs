@@ -7,8 +7,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3888:80"  # Exponer el puerto 8080 en tu máquina para acceder a la web
-    volumes:
-      - ./html:/var/www/html  # Mapear el código fuente a la carpeta web del contenedor
     container_name: cetilabs
 
 networks:
