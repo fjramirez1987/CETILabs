@@ -16,7 +16,7 @@ Para configurar el proyecto en tu entorno local utilizando Docker Compose, sigue
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/cetilabs.git
+   git clone https://github.com/fjramirez1987/cetilabs.git
    cd cetilabs
 
 2. **Construye y ejecuta el contenedor**:
