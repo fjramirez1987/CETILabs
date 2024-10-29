@@ -1,0 +1,86 @@
+body {
+    padding-top: 56px;
+    background-color: #f0f0f0;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.team-section {
+    padding: 50px 0;
+}
+.team-member {
+    text-align: center;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.team-member h5 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.content-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.secret {
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.news-section {
+    padding: 50px 0;
+}
+.news-item {
+    margin-bottom: 30px;
+}
+.news-item h3 {
+    font-size: 1.5rem;
+}
+.news-item p {
+    font-size: 1rem;
+    color: #555;
+}
+/* Estilo para agrandar el modal en altura */
+.modal-lg {
+    max-width: 80%;
+    max-height: 80%;
+}
+.modal-content {
+    height: 100%;
+}
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Para apilar la imagen y el texto verticalmente */
+    height: 100%;
+}
+.modal-body img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.modal-header {
+    background-color: #28a745;
+    color: white;
+}
+
+.contact-section {
+    padding: 50px 0;
+}

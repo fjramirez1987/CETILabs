@@ -1,0 +1,5 @@
+# Bloquear acceso a todos los archivos .db
+<FilesMatch "\.db$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
